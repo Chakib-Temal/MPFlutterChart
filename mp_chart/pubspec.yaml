@@ -10,15 +10,13 @@ environment:
 
 dependencies:
   intl: ^0.17.0
-  path_provider: ^2.0.9
+  path_drawing: ^0.5.1
+  image_gallery_saver: ^1.6.9
   screenshot: ^1.2.3
-  path_drawing: ^1.0.0
-  image_gallery_saver: ^1.7.1
-  optimized_gesture_detector: 
+  optimized_gesture_detector:
     git:
-      url: git://github.com/Juniorlpes/OptimizedGestureDetector.git
-      #path: mp_chart
-    #path : ../OptimizedGestureDetector/
+      url: git@github.com:Pathoz-LLC/OptimizedGestureDetector.git
+      ref: master
   vector_math: ^2.1.0
   flutter:
     sdk: flutter
