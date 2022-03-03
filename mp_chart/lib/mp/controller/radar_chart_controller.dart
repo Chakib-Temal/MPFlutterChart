@@ -143,7 +143,7 @@ class RadarChartController extends PieRadarController<RadarChartPainter> {
     webColorInner ??= Color.fromARGB(255, 122, 122, 122);
     yAxis = initYAxis();
     if (yAxisSettingFunction != null) {
-      yAxisSettingFunction!(yAxis, this);
+      yAxisSettingFunction!(yAxis!, this);
     }
   }
 

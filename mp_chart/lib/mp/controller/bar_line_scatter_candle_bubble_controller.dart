@@ -204,10 +204,10 @@ abstract class BarLineScatterCandleBubbleController<
     axisRendererRight = initAxisRendererRight();
     xAxisRenderer = initXAxisRenderer();
     if (axisLeftSettingFunction != null) {
-      axisLeftSettingFunction!(axisLeft, this);
+      axisLeftSettingFunction!(axisLeft!, this);
     }
     if (axisRightSettingFunction != null) {
-      axisRightSettingFunction!(axisRight, this);
+      axisRightSettingFunction!(axisRight!, this);
     }
   }
 
